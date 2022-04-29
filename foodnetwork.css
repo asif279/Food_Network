@@ -53,34 +53,78 @@ body {
  display: flex;
  background-image:url(shapes/7.png);
  background-repeat: no-repeat;
- overflow:hidden;
+ 
+ background-size: 100%;
+ 
  width: 100%;
+  height: auto;
+ 
+ 
+ 
+}
+.font3{
+    font-size: 35px;
+}
+.button-2{
+    font-size: 16px;
+   
+    padding: 10px;
+    border: 1px solid orangered;
+   border-radius: 20px;
+    background: linear-gradient(orange,orangered);
 }
 .Part-3{
     width: 50%;
-    padding-left: 80px; 
+    padding-left: 250px; 
 }
 .height{
    height: 25%;
 }
 .Part-4{
     width: 50%; 
-    padding-right: 80px; 
+    padding-right: 110px; 
     padding-top: 25px;
-}
-#font3{
-    font-size: 35px;
+    padding-right: 180px;
 }
 
-.button-2{
-    font-size: 16px;
-   
-    padding: 10px;
-    border: 1px solid orangered;
-   
-    border-radius: 20px;
-    background: linear-gradient(orange,orangered);
-}
 .align{
     text-align: center;
+    color: gray;
+    font-size: 35px;
+}
+.alignh{
+    color: black;text-align: center;
+}
+.section-4{
+    display: flex;
+    margin-bottom: 15px;
+}
+.Part-5{
+   width: 25%; 
+   height: 40%;
+   margin: 20px;
+   padding: 20px;
+   border: 3px solid orange;
+   border-radius: 20px;
+   margin-left: 40px;
+}
+.pic{
+    height: 200px;
+    border-radius: 15px;
+    border: 3px solid white;
+    padding: 20px;
+}
+.h1{
+    font-family: 'Raleway', sans-serif;
+}
+.hi{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;  
+}
+.div{
+    display: flex;
+    margin: 20px;
+    padding: 40px;
+    border:3px solid gold;
+    border-radius: 25px;
 }
